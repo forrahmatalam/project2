@@ -22,12 +22,11 @@ main {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: .3fr 2fr 3fr;
+  grid-template-rows: 0.3fr 2fr 3fr;
   grid-template-areas:
     "header header header"
     "hero-div hero-div hero-div"
-    "bottom-left bottom-center bottom-right"
-    ;
+    "bottom-left bottom-center bottom-right";
   padding: 20px;
   gap: 20px;
 }
@@ -44,7 +43,7 @@ header {
 
 .hero-div {
   position: relative;
-  background-image:url("https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1361&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1361&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
   grid-area: hero-div;
@@ -58,72 +57,67 @@ header {
   margin-bottom: 10px;
 }
 .bottom-left {
-  background-image:url("https://images.unsplash.com/photo-1606890657264-e5a411daf9ef?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1606890657264-e5a411daf9ef?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: top;
   grid-area: bottom-left;
   position: relative;
-   border-radius: 15px;
-     display: flex;
+  border-radius: 15px;
+  display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   flex-direction: column;
 }
 
 .bottom-center {
-  background-image:url("https://images.unsplash.com/photo-1570865116909-d358c47f1806?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1570865116909-d358c47f1806?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
   grid-area: bottom-center;
   position: relative;
-   border-radius: 15px;
-     display: flex;
+  border-radius: 15px;
+  display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .bottom-right {
-  background-image:url("https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
   grid-area: bottom-right;
   position: relative;
-   border-radius: 15px;
-     display: flex;
+  border-radius: 15px;
+  display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
-
-.bottom-left h3{
+.bottom-left h3 {
   color: white;
   font-size: 30px;
   font-weight: 750;
   margin-bottom: 10px;
   font-family: sans-serif;
- 
 }
 
-
-.bottom-center h3{
+.bottom-center h3 {
   color: white;
   font-size: 30px;
   font-weight: 750;
   margin-bottom: 10px;
   font-family: sans-serif;
- 
 }
 
-.bottom-right h3{
+.bottom-right h3 {
   color: white;
   font-size: 30px;
   font-weight: 750;
   margin-bottom: 10px;
   font-family: sans-serif;
- 
 }
- 
-.bottom-left-text{
+
+.bottom-left-text {
   display: flex;
   flex-direction: column;
 }
@@ -135,13 +129,13 @@ header {
   position: relative;
 }
 .search-div input {
-  padding: 6px 100px 6px 35px; 
+  padding: 6px 100px 6px 35px;
   border: none;
   border-radius: 5px;
   background-color: #ffffff;
 }
 
-.search-div i{
+.search-div i {
   position: absolute;
   right: 10px;
 }
@@ -154,7 +148,7 @@ header {
 .icons i {
   font-size: 20px;
   cursor: pointer;
-  font-weight:200;
+  font-weight: 200;
 }
 
 .hero-text {
@@ -195,7 +189,7 @@ header {
   font-family: sans-serif;
 }
 
-.hero-text i{
+.hero-text i {
   font-size: 20px;
   margin-left: 10px;
   color: #ffffff;
